@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.api.generator.dao.BookMapper">
+  <resultMap id="BaseResultMap" type="com.api.generator.model.Book">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="author" jdbcType="VARCHAR" property="author" />
+    <result column="publisher" jdbcType="VARCHAR" property="publisher" />
+    <result column="time" jdbcType="DATE" property="time" />
+    <result column="creatorUserId" jdbcType="VARCHAR" property="creatoruserid" />
+    <result column="creator" jdbcType="VARCHAR" property="creator" />
+    <result column="updateUserId" jdbcType="VARCHAR" property="updateuserid" />
+    <result column="updateUser" jdbcType="VARCHAR" property="updateuser" />
+    <result column="updateTime" jdbcType="TIMESTAMP" property="updatetime" />
+    <result column="large" jdbcType="LONGVARBINARY" property="large" />
+  </resultMap>
+</mapper>
